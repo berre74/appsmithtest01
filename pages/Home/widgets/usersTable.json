@@ -44,6 +44,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "{{}}",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -96,7 +97,9 @@
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
-        {"key": "primaryColumns.gender.cellBackground"}
+        {"key": "primaryColumns.gender.cellBackground"},
+        {"key": "cellBackground"},
+        {"key": "textColor"}
     ],
     "displayName": "Table",
     "bottomRow": 34,
@@ -502,5 +505,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
+    "cellBackground": "{{}}",
     "verticalAlignment": "CENTER"
 }

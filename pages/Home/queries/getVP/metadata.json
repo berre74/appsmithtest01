@@ -25,7 +25,7 @@
       "queryParameters": [
         {
           "key": "vendorTableID",
-          "value": "BF-VENO-IMPULS"
+          "value": "{{selVPTable.selectedOptionLabel}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -37,7 +37,11 @@
       "name": "VP",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "queryParameters[0].value"
+      }
+    ],
     "executeOnLoad": true,
     "name": "getVP",
     "pageId": "Home",

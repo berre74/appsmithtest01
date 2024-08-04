@@ -138,7 +138,7 @@
   "isVisibleSearch": true,
   "key": "yxz1q9weda",
   "label": "Data",
-  "leftColumn": 0,
+  "leftColumn": 20,
   "minWidth": 450,
   "mobileBottomRow": 40,
   "mobileLeftColumn": 0,
@@ -534,7 +534,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 26,
+  "rightColumn": 46,
   "searchKey": "",
   "tableData": "{{getUsers.data}}",
   "tags": [

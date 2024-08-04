@@ -1,12 +1,11 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 13,
   "boxShadow": "none",
-  "defaultText": "{{usersTable.selectedRow.name}}",
-  "displayName": "Input",
+  "defaultOptionValue": "GREEN",
+  "displayName": "Select",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -15,34 +14,41 @@
       "key": "borderRadius"
     },
     {
-      "key": "defaultText"
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "hideCard": false,
-  "iconAlign": "left",
-  "iconSVG": "/static/media/icon.e082ea210dbe0f5ca1bf7bfd67abdbec.svg",
-  "inputType": "TEXT",
+  "iconSVG": "/static/media/icon.c94480439adb48de6883bb496aa5ef7d.svg",
   "isDeprecated": false,
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "ay7adrqoay",
-  "label": "Name",
+  "key": "rpfwpunqwn",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Vendor Products Table\n",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 2,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 13,
-  "mobileLeftColumn": 2,
-  "mobileRightColumn": 22,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
   "onCanvasUI": {
@@ -52,30 +58,29 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 17,
-  "originalTopRow": 10,
-  "parentColumnSpace": 6.74755859375,
-  "parentId": "ujz0r76zre",
+  "onOptionChange": "{{getVP.run()}}",
+  "optionLabel": "vendorTableID",
+  "optionValue": "vendorTableName",
+  "parentColumnSpace": 11.890625,
+  "parentId": "0",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 22,
+  "rightColumn": 20,
   "searchTags": [
-    "form",
-    "text input",
-    "number",
-    "textarea"
+    "dropdown"
   ],
-  "showStepArrows": false,
+  "serverSideFiltering": false,
+  "sourceData": "{{getVPTables.data}}",
   "tags": [
     "Suggested",
-    "Inputs"
+    "Select"
   ],
-  "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 10,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "8q7wlqdv97",
-  "widgetName": "nameInput"
+  "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 6,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "jp97lxb0a7",
+  "widgetName": "selVPTable"
 }

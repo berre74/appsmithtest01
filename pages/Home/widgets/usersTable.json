@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 34,
+  "bottomRow": 28,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "cellBackground": "{{}}",
@@ -534,7 +534,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 26,
   "searchKey": "",
   "tableData": "{{getUsers.data}}",
   "tags": [

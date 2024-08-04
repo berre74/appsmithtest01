@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 58,
+  "bottomRow": 29,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -78,7 +78,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "sxdtb48dy4",
-  "leftColumn": 0,
+  "leftColumn": 27,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -94,15 +94,15 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 58,
-  "originalTopRow": 35,
+  "originalBottomRow": 29,
+  "originalTopRow": 6,
   "parentColumnSpace": 11.890625,
   "parentId": "0",
   "parentRowSpace": 10,
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 49,
+  "rightColumn": 61,
   "searchTags": [
     "group"
   ],
@@ -111,7 +111,7 @@
     "Layout"
   ],
   "thumbnailSVG": "/static/media/thumbnail.3e92e6e159c53c6046da08eae3732a97.svg",
-  "topRow": 35,
+  "topRow": 6,
   "type": "FORM_WIDGET",
   "widgetId": "tcb5fmanbs",
   "widgetName": "User_Details"

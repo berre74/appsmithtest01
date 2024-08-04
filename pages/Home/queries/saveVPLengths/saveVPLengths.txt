@@ -1,3 +1,5 @@
 {{
-tblVPLengths.triggeredRow
+{
+	vendorTableID: 'BF-VENO-IMPULS',
+	lengths: [tblVPLengths.triggeredRow]}
 }}

@@ -1,3 +1,5 @@
 {{
-tblVPWidths.triggeredRow
+{
+	vendorTableID: 'BF-VENO-IMPULS',
+ 	widths: [tblVPWidths.triggeredRow] }
 }}

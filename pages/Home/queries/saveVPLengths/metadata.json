@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n{\n\tvendorTableID: selVPTable.selectedOptionLabel,\n\tlengths: [tblVPLengths.triggeredRow]}\n}}",
+      "body": "{{\n{\n\tvendorTableID: selVPTable.selectedOptionLabel,\n\tlengths: [tblVPLengths.newRow]}\n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

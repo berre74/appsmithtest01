@@ -1,10 +1,11 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": true,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 65,
+  "bottomRow": 64,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -40,14 +41,13 @@
     "cF_max",
     "cE_min",
     "cE_max",
-    "productId",
     "vendorTableID",
     "ts",
     "Timestamp",
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1722778946931,
+  "columnUpdatedAt": 1722806345725,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -95,9 +95,6 @@
     },
     {
       "key": "primaryColumns.cE_max.computedValue"
-    },
-    {
-      "key": "primaryColumns.productId.computedValue"
     },
     {
       "key": "primaryColumns.vendorTableID.computedValue"
@@ -150,6 +147,9 @@
     },
     {
       "key": "primaryColumns.EditActions1.onSave"
+    },
+    {
+      "key": "onAddNewRowSave"
     }
   ],
   "enableClientSideSearch": true,
@@ -176,6 +176,7 @@
   "mobileTopRow": 59,
   "needsErrorInfo": false,
   "needsHeightForContent": true,
+  "onAddNewRowSave": "{{saveVPWidths.run().then(() => {\n  getVP.run();\n});}}",
   "onCanvasUI": {
     "disableParentSelection": false,
     "focusBGCSSVar": "--on-canvas-ui-widget-focus",
@@ -183,8 +184,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 65,
-  "originalTopRow": 37,
+  "originalBottomRow": 64,
+  "originalTopRow": 36,
   "parentColumnSpace": 11.890625,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -551,37 +552,6 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "productId": {
-      "alias": "productId",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"productId\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "productId",
-      "index": 9,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "productId",
-      "notation": "standard",
-      "originalId": "productId",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "ts": {
       "alias": "ts",
       "allowCellWrapping": false,
@@ -688,7 +658,7 @@
   ],
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-  "topRow": 37,
+  "topRow": 36,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

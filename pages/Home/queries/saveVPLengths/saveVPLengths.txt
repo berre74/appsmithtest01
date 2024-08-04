@@ -1,5 +1,5 @@
 {{
 {
 	vendorTableID: selVPTable.selectedOptionLabel,
-	lengths: [tblVPLengths.triggeredRow]}
+	lengths: [tblVPLengths.newRow]}
 }}

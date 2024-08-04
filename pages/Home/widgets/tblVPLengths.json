@@ -35,7 +35,6 @@
     "PartitionKey",
     "RowKey",
     "vendorModel",
-    "productId",
     "vendorTableID",
     "ts",
     "Timestamp",
@@ -47,7 +46,7 @@
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1722778939037,
+  "columnUpdatedAt": 1722806346215,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -77,9 +76,6 @@
     },
     {
       "key": "primaryColumns.vendorModel.computedValue"
-    },
-    {
-      "key": "primaryColumns.productId.computedValue"
     },
     {
       "key": "primaryColumns.vendorTableID.computedValue"
@@ -483,37 +479,6 @@
       "label": "lG-min",
       "notation": "standard",
       "originalId": "lG-min",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "productId": {
-      "alias": "productId",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{tblVPLengths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"productId\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "productId",
-      "index": 9,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "productId",
-      "notation": "standard",
-      "originalId": "productId",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "668c2babd7be930da0c79795_e7023d98-4568-47e0-a27d-3102c19d05e1",
-  "id": "Home_saveVPLengths",
+  "gitSyncId": "668c2babd7be930da0c79795_0f55fe7f-05ba-445a-b262-71294a17c969",
+  "id": "Home_updateVPLengths",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\n{\n\tvendorTableID: selVPTable.selectedOptionLabel,\n\tlengths: [tblVPLengths.newRow]}\n}}",
+      "body": "{{\n{\n\tvendorTableID: selVPTable.selectedOptionLabel,\n\tlengths: [tblVPLengths.triggeredRow]}\n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -43,7 +43,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "saveVPLengths",
+    "name": "updateVPLengths",
     "pageId": "Home",
     "userSetOnLoad": false
   }

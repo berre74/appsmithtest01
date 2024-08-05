@@ -48,6 +48,7 @@
   ],
   "columnUpdatedAt": 1722806346215,
   "columnWidthMap": {},
+  "compactMode": "SHORT",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
@@ -172,7 +173,7 @@
   "mobileTopRow": 59,
   "needsErrorInfo": false,
   "needsHeightForContent": true,
-  "onAddNewRowSave": "{{saveVPLengths.run()}}",
+  "onAddNewRowSave": "{{insertVPLengths.run()}}",
   "onCanvasUI": {
     "disableParentSelection": false,
     "focusBGCSSVar": "--on-canvas-ui-widget-focus",
@@ -217,7 +218,7 @@
       "isVisible": true,
       "label": "Save / Discard",
       "notation": "standard",
-      "onSave": "{{saveVPLengths.run().then(() => {\n  getVP.run();\n});}}",
+      "onSave": "{{updateVPLengths.run().then(() => {\n  getVP.run();\n});}}",
       "originalId": "EditActions1",
       "saveActionLabel": "Save",
       "saveBorderRadius": "{{tblVPLengths.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",

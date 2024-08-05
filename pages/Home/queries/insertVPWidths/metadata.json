@@ -1,6 +1,6 @@
 {
   "gitSyncId": "668c2babd7be930da0c79795_4548cef1-b02d-455a-ac40-a86881703739",
-  "id": "Home_saveVPWidths",
+  "id": "Home_insertVPWidths",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -43,7 +43,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "saveVPWidths",
+    "name": "insertVPWidths",
     "pageId": "Home",
     "userSetOnLoad": false
   }

@@ -1,4 +1,0 @@
-UPDATE users 
-SET name = {{nameInput.text}},
-dob = {{dobInput.selectedDate}}
-WHERE id = {{usersTable.selectedRow.id}} 

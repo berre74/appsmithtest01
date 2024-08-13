@@ -63,7 +63,7 @@
   },
   "onOptionChange": "{{getVP.run()}}",
   "optionLabel": "vendorTableID",
-  "optionValue": "vendorName",
+  "optionValue": "vendorTableID",
   "parentColumnSpace": 11.890625,
   "parentId": "uqiwma2gj8",
   "parentRowSpace": 10,

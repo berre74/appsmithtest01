@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 14,
   "boxShadow": "none",
-  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "defaultImage": "https://sokba.blob.core.windows.net/vendortables/favicon192.png",
   "displayName": "Image",
   "dynamicBindingPathList": [
     {
@@ -53,5 +53,5 @@
   "type": "IMAGE_WIDGET",
   "version": 1,
   "widgetId": "rbz4wgiwse",
-  "widgetName": "Image1"
+  "widgetName": "fldImage"
 }

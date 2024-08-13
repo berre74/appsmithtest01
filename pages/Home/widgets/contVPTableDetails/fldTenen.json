@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 7,
+  "bottomRow": 14,
   "boxShadow": "none",
-  "defaultText": "{{getVP.data.brei}}",
+  "defaultText": "{{getVP.data.tenen?\"Met tenen\":\"Zonder tenen\"}}",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {
@@ -29,8 +29,8 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "6k3r71dsnc",
-  "label": "Brei",
+  "key": "l7ilzzn42r",
+  "label": "Tenen",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -40,10 +40,10 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 8,
-  "mobileLeftColumn": 29,
-  "mobileRightColumn": 49,
-  "mobileTopRow": 1,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 42,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 8,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -52,7 +52,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "parentColumnSpace": 4.146484375,
+  "parentColumnSpace": 10.802734375,
   "parentId": "uqiwma2gj8",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
@@ -71,9 +71,9 @@
     "Inputs"
   ],
   "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
-  "topRow": 0,
+  "topRow": 7,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "ky3xx2ejwl",
-  "widgetName": "fldBrei"
+  "widgetId": "4xjv6e4agl",
+  "widgetName": "fldTenen"
 }

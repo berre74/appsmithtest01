@@ -35,31 +35,31 @@
     "PartitionKey",
     "RowKey",
     "vendorModel",
-    "cG_min",
-    "cG_max",
-    "cF_min",
-    "cF_max",
-    "cE_min",
-    "cE_max",
     "vendorTableID",
     "ts",
     "Timestamp",
-    "cD_min",
-    "cD_max",
-    "cC_min",
-    "cC_max",
-    "cB1_min",
-    "cB1_max",
-    "cB_min",
-    "cB_max",
-    "cY_min",
-    "cY_max",
-    "cA_min",
-    "cA_max",
+    "cA_max1",
+    "cA_min1",
+    "cB1_max1",
+    "cB1_min1",
+    "cB_max1",
+    "cB_min1",
+    "cC_max1",
+    "cC_min1",
+    "cD_max1",
+    "cD_min1",
+    "cE_max1",
+    "cE_min1",
+    "cF_max1",
+    "cF_min1",
+    "cG_max1",
+    "cG_min1",
+    "cY_max1",
+    "cY_min1",
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1722824588181,
+  "columnUpdatedAt": 1723584623837,
   "columnWidthMap": {},
   "compactMode": "SHORT",
   "defaultPageSize": 0,
@@ -90,24 +90,6 @@
     },
     {
       "key": "primaryColumns.vendorModel.computedValue"
-    },
-    {
-      "key": "primaryColumns.cG_min.computedValue"
-    },
-    {
-      "key": "primaryColumns.cG_max.computedValue"
-    },
-    {
-      "key": "primaryColumns.cF_min.computedValue"
-    },
-    {
-      "key": "primaryColumns.cF_max.computedValue"
-    },
-    {
-      "key": "primaryColumns.cE_min.computedValue"
-    },
-    {
-      "key": "primaryColumns.cE_max.computedValue"
     },
     {
       "key": "primaryColumns.vendorTableID.computedValue"
@@ -143,40 +125,58 @@
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
     },
     {
-      "key": "primaryColumns.cD_min.computedValue"
+      "key": "primaryColumns.cA_max1.computedValue"
     },
     {
-      "key": "primaryColumns.cD_max.computedValue"
+      "key": "primaryColumns.cA_min1.computedValue"
     },
     {
-      "key": "primaryColumns.cC_min.computedValue"
+      "key": "primaryColumns.cB1_max1.computedValue"
     },
     {
-      "key": "primaryColumns.cC_max.computedValue"
+      "key": "primaryColumns.cB1_min1.computedValue"
     },
     {
-      "key": "primaryColumns.cB1_min.computedValue"
+      "key": "primaryColumns.cB_max1.computedValue"
     },
     {
-      "key": "primaryColumns.cB1_max.computedValue"
+      "key": "primaryColumns.cB_min1.computedValue"
     },
     {
-      "key": "primaryColumns.cB_min.computedValue"
+      "key": "primaryColumns.cC_max1.computedValue"
     },
     {
-      "key": "primaryColumns.cB_max.computedValue"
+      "key": "primaryColumns.cC_min1.computedValue"
     },
     {
-      "key": "primaryColumns.cY_min.computedValue"
+      "key": "primaryColumns.cD_max1.computedValue"
     },
     {
-      "key": "primaryColumns.cY_max.computedValue"
+      "key": "primaryColumns.cD_min1.computedValue"
     },
     {
-      "key": "primaryColumns.cA_min.computedValue"
+      "key": "primaryColumns.cE_max1.computedValue"
     },
     {
-      "key": "primaryColumns.cA_max.computedValue"
+      "key": "primaryColumns.cE_min1.computedValue"
+    },
+    {
+      "key": "primaryColumns.cF_max1.computedValue"
+    },
+    {
+      "key": "primaryColumns.cF_min1.computedValue"
+    },
+    {
+      "key": "primaryColumns.cG_max1.computedValue"
+    },
+    {
+      "key": "primaryColumns.cG_min1.computedValue"
+    },
+    {
+      "key": "primaryColumns.cY_max1.computedValue"
+    },
+    {
+      "key": "primaryColumns.cY_min1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -238,6 +238,7 @@
   "parentColumnSpace": 11.890625,
   "parentId": "0",
   "parentRowSpace": 10,
+  "primaryColumnId": "RowKey",
   "primaryColumns": {
     "EditActions1": {
       "alias": "EditActions1",
@@ -376,8 +377,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cA_max": {
-      "alias": "cA-max",
+    "cA_max1": {
+      "alias": "cA_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -389,8 +390,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cA_max",
-      "index": 20,
+      "id": "cA_max1",
+      "index": 3,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -401,7 +402,7 @@
       "isVisible": true,
       "label": "cA_max",
       "notation": "standard",
-      "originalId": "cA-max",
+      "originalId": "cA_max",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -410,8 +411,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cA_min": {
-      "alias": "cA-min",
+    "cA_min1": {
+      "alias": "cA_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -423,8 +424,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cA_min",
-      "index": 19,
+      "id": "cA_min1",
+      "index": 4,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -435,7 +436,7 @@
       "isVisible": true,
       "label": "cA_min",
       "notation": "standard",
-      "originalId": "cA-min",
+      "originalId": "cA_min",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -444,8 +445,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cB1_max": {
-      "alias": "cB1-max",
+    "cB1_max1": {
+      "alias": "cB1_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -457,8 +458,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cB1_max",
-      "index": 14,
+      "id": "cB1_max1",
+      "index": 5,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -469,7 +470,7 @@
       "isVisible": true,
       "label": "cB1_max",
       "notation": "standard",
-      "originalId": "cB1-max",
+      "originalId": "cB1_max",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -478,8 +479,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cB1_min": {
-      "alias": "cB1-min",
+    "cB1_min1": {
+      "alias": "cB1_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -491,8 +492,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cB1_min",
-      "index": 13,
+      "id": "cB1_min1",
+      "index": 6,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -503,7 +504,7 @@
       "isVisible": true,
       "label": "cB1_min",
       "notation": "standard",
-      "originalId": "cB1-min",
+      "originalId": "cB1_min",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -512,8 +513,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cB_max": {
-      "alias": "cB-max",
+    "cB_max1": {
+      "alias": "cB_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -525,8 +526,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cB_max",
-      "index": 16,
+      "id": "cB_max1",
+      "index": 7,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -537,7 +538,7 @@
       "isVisible": true,
       "label": "cB_max",
       "notation": "standard",
-      "originalId": "cB-max",
+      "originalId": "cB_max",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -546,8 +547,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cB_min": {
-      "alias": "cB-min",
+    "cB_min1": {
+      "alias": "cB_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -559,8 +560,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cB_min",
-      "index": 15,
+      "id": "cB_min1",
+      "index": 8,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -571,7 +572,7 @@
       "isVisible": true,
       "label": "cB_min",
       "notation": "standard",
-      "originalId": "cB-min",
+      "originalId": "cB_min",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -580,8 +581,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cC_max": {
-      "alias": "cC-max",
+    "cC_max1": {
+      "alias": "cC_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -593,8 +594,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cC_max",
-      "index": 12,
+      "id": "cC_max1",
+      "index": 9,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -605,7 +606,7 @@
       "isVisible": true,
       "label": "cC_max",
       "notation": "standard",
-      "originalId": "cC-max",
+      "originalId": "cC_max",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -614,8 +615,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cC_min": {
-      "alias": "cC-min",
+    "cC_min1": {
+      "alias": "cC_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -627,8 +628,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cC_min",
-      "index": 11,
+      "id": "cC_min1",
+      "index": 10,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -639,7 +640,7 @@
       "isVisible": true,
       "label": "cC_min",
       "notation": "standard",
-      "originalId": "cC-min",
+      "originalId": "cC_min",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -648,8 +649,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cD_max": {
-      "alias": "cD-max",
+    "cD_max1": {
+      "alias": "cD_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -661,8 +662,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cD_max",
-      "index": 10,
+      "id": "cD_max1",
+      "index": 11,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -673,7 +674,7 @@
       "isVisible": true,
       "label": "cD_max",
       "notation": "standard",
-      "originalId": "cD-max",
+      "originalId": "cD_max",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -682,8 +683,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cD_min": {
-      "alias": "cD-min",
+    "cD_min1": {
+      "alias": "cD_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -695,8 +696,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cD_min",
-      "index": 9,
+      "id": "cD_min1",
+      "index": 12,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -707,7 +708,7 @@
       "isVisible": true,
       "label": "cD_min",
       "notation": "standard",
-      "originalId": "cD-min",
+      "originalId": "cD_min",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -716,19 +717,21 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cE_max": {
-      "alias": "cE-max",
+    "cE_max1": {
+      "alias": "cE_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cE_max\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cE_max",
-      "index": 8,
+      "id": "cE_max1",
+      "index": 13,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -739,27 +742,30 @@
       "isVisible": true,
       "label": "cE_max",
       "notation": "standard",
-      "originalId": "cE-max",
+      "originalId": "cE_max",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cE_min": {
-      "alias": "cE-min",
+    "cE_min1": {
+      "alias": "cE_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cE_min\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cE_min",
-      "index": 7,
+      "id": "cE_min1",
+      "index": 14,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -770,27 +776,30 @@
       "isVisible": true,
       "label": "cE_min",
       "notation": "standard",
-      "originalId": "cE-min",
+      "originalId": "cE_min",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cF_max": {
-      "alias": "cF-max",
+    "cF_max1": {
+      "alias": "cF_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cF_max\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cF_max",
-      "index": 6,
+      "id": "cF_max1",
+      "index": 15,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -801,27 +810,30 @@
       "isVisible": true,
       "label": "cF_max",
       "notation": "standard",
-      "originalId": "cF-max",
+      "originalId": "cF_max",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cF_min": {
-      "alias": "cF-min",
+    "cF_min1": {
+      "alias": "cF_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cF_min\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cF_min",
-      "index": 5,
+      "id": "cF_min1",
+      "index": 16,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -832,27 +844,30 @@
       "isVisible": true,
       "label": "cF_min",
       "notation": "standard",
-      "originalId": "cF-min",
+      "originalId": "cF_min",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cG_max": {
-      "alias": "cG-max",
+    "cG_max1": {
+      "alias": "cG_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cG_max\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cG_max",
-      "index": 4,
+      "id": "cG_max1",
+      "index": 17,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -863,27 +878,30 @@
       "isVisible": true,
       "label": "cG_max",
       "notation": "standard",
-      "originalId": "cG-max",
+      "originalId": "cG_max",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cG_min": {
-      "alias": "cG-min",
+    "cG_min1": {
+      "alias": "cG_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cG_min\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cG_min",
-      "index": 3,
+      "id": "cG_min1",
+      "index": 18,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -894,16 +912,17 @@
       "isVisible": true,
       "label": "cG_min",
       "notation": "standard",
-      "originalId": "cG-min",
+      "originalId": "cG_min",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cY_max": {
-      "alias": "cY-max",
+    "cY_max1": {
+      "alias": "cY_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -915,8 +934,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cY_max",
-      "index": 18,
+      "id": "cY_max1",
+      "index": 19,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -927,7 +946,7 @@
       "isVisible": true,
       "label": "cY_max",
       "notation": "standard",
-      "originalId": "cY-max",
+      "originalId": "cY_max",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -936,8 +955,8 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cY_min": {
-      "alias": "cY-min",
+    "cY_min1": {
+      "alias": "cY_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
@@ -949,8 +968,8 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cY_min",
-      "index": 17,
+      "id": "cY_min1",
+      "index": 20,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -961,7 +980,7 @@
       "isVisible": true,
       "label": "cY_min",
       "notation": "standard",
-      "originalId": "cY-min",
+      "originalId": "cY_min",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

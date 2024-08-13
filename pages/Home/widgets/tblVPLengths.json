@@ -39,14 +39,14 @@
     "ts",
     "Timestamp",
     "type",
-    "lD_min",
-    "lD_max",
-    "lG_min",
-    "lG_max",
+    "lG_max1",
+    "lG_min1",
+    "lD_max1",
+    "lD_min1",
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1722806346215,
+  "columnUpdatedAt": 1723584448264,
   "columnWidthMap": {},
   "compactMode": "SHORT",
   "defaultPageSize": 0,
@@ -91,18 +91,6 @@
       "key": "primaryColumns.type.computedValue"
     },
     {
-      "key": "primaryColumns.lD_min.computedValue"
-    },
-    {
-      "key": "primaryColumns.lD_max.computedValue"
-    },
-    {
-      "key": "primaryColumns.lG_min.computedValue"
-    },
-    {
-      "key": "primaryColumns.lG_max.computedValue"
-    },
-    {
       "key": "primaryColumns.EditActions1.saveButtonColor"
     },
     {
@@ -125,6 +113,18 @@
     },
     {
       "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.lG_max1.computedValue"
+    },
+    {
+      "key": "primaryColumns.lG_min1.computedValue"
+    },
+    {
+      "key": "primaryColumns.lD_max1.computedValue"
+    },
+    {
+      "key": "primaryColumns.lD_min1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -186,6 +186,7 @@
   "parentColumnSpace": 11.890625,
   "parentId": "0",
   "parentRowSpace": 10,
+  "primaryColumnId": "RowKey",
   "primaryColumns": {
     "EditActions1": {
       "alias": "EditActions1",
@@ -363,18 +364,20 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "lD_max": {
-      "alias": "lD-max",
+    "lD_max1": {
+      "alias": "lD_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPLengths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lD_max\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "lD_max",
+      "id": "lD_max1",
       "index": 9,
       "isCellEditable": true,
       "isCellVisible": true,
@@ -386,27 +389,30 @@
       "isVisible": true,
       "label": "lD_max",
       "notation": "standard",
-      "originalId": "lD-max",
+      "originalId": "lD_max",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "lD_min": {
-      "alias": "lD-min",
+    "lD_min1": {
+      "alias": "lD_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPLengths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lD_min\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "lD_min",
-      "index": 8,
+      "id": "lD_min1",
+      "index": 10,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -417,27 +423,30 @@
       "isVisible": true,
       "label": "lD_min",
       "notation": "standard",
-      "originalId": "lD-min",
+      "originalId": "lD_min",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "lG_max": {
-      "alias": "lG-max",
+    "lG_max1": {
+      "alias": "lG_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPLengths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lG_max\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "lG_max",
-      "index": 11,
+      "id": "lG_max1",
+      "index": 3,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -448,27 +457,30 @@
       "isVisible": true,
       "label": "lG_max",
       "notation": "standard",
-      "originalId": "lG-max",
+      "originalId": "lG_max",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "lG_min": {
-      "alias": "lG-min",
+    "lG_min1": {
+      "alias": "lG_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
       "columnType": "number",
       "computedValue": "{{tblVPLengths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lG_min\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
+      "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "lG_min",
-      "index": 10,
+      "id": "lG_min1",
+      "index": 4,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -479,8 +491,9 @@
       "isVisible": true,
       "label": "lG_min",
       "notation": "standard",
-      "originalId": "lG-min",
+      "originalId": "lG_min",
       "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

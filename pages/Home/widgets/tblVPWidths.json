@@ -990,7 +990,7 @@
       "width": 150
     },
     "customColumn1": {
-      "alias": "btnDel",
+      "alias": "Delete",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -1016,7 +1016,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "btnDel",
+      "label": "Delete",
       "labelColor": "#FFFFFF",
       "notation": "standard",
       "onClick": "{{delVPWidths.run().then(() => {\n  getVP.run();\n});}}",

@@ -173,7 +173,7 @@
   "mobileTopRow": 59,
   "needsErrorInfo": false,
   "needsHeightForContent": true,
-  "onAddNewRowSave": "{{insertVPLengths.run()}}",
+  "onAddNewRowSave": "{{insertVPLengths.run().then(() => {\n  getVP.run();\n});}}",
   "onCanvasUI": {
     "disableParentSelection": false,
     "focusBGCSSVar": "--on-canvas-ui-widget-focus",
@@ -326,7 +326,7 @@
       "width": 150
     },
     "customColumn1": {
-      "alias": "btnDel",
+      "alias": "Delete",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{tblVPLengths.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -352,7 +352,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "btnDel",
+      "label": "Delete",
       "labelColor": "#FFFFFF",
       "notation": "standard",
       "onClick": "{{delVPLengths.run().then(() => {\n  getVP.run();\n});}}",

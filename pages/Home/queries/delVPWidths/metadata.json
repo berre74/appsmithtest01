@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{{\ntblVPWidths.triggeredRow\n}}",
+      "body": "{{\n  tblVPWidths.triggeredRow\n}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

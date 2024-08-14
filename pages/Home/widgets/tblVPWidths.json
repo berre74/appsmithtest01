@@ -60,7 +60,9 @@
     "EditActions1"
   ],
   "columnUpdatedAt": 1723584623837,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "customColumn1": 88
+  },
   "compactMode": "SHORT",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -276,6 +278,7 @@
       "saveActionLabel": "Save",
       "saveBorderRadius": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
       "saveButtonColor": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "saveButtonVariant": "SECONDARY",
       "saveIconAlign": "left",
       "sticky": "right",
       "textSize": "0.875rem",
@@ -998,6 +1001,7 @@
       "buttonColor": "{{tblVPWidths.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "buttonLabel": "Delete",
       "buttonStyle": "rgb(3, 179, 101)",
+      "buttonVariant": "SECONDARY",
       "columnType": "button",
       "computedValue": "",
       "currencyCode": "USD",
@@ -1124,7 +1128,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "searchKey": "",
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{getVP.data.widths}}",

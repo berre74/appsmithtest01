@@ -1,0 +1,87 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 66,
+  "boxShadow": "none",
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "menu",
+  "iconSVG": "/static/media/icon.5e66a9029af45161f7a3fbfb4262e5ee.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "56ak3z89o4",
+  "label": "All",
+  "leftColumn": 56,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Delete all lengths",
+      "onClick": "{{deleteVPTableLengths.run().then(() => {\n  getVP.run();\n});}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Copy lengths from",
+      "onClick": "{{showModal(modalCopyLengthsFrom.name);}}",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 66,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 62,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 66,
+  "originalTopRow": 62,
+  "parentColumnSpace": 11.890625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+  "topRow": 62,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "oyv1hbd57r",
+  "widgetName": "menuLengths"
+}

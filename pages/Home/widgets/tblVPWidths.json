@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 58,
+  "bottomRow": 59,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -38,28 +38,28 @@
     "vendorTableID",
     "ts",
     "Timestamp",
-    "cA_max1",
-    "cA_min1",
-    "cB1_max1",
-    "cB1_min1",
-    "cB_max1",
-    "cB_min1",
-    "cC_max1",
-    "cC_min1",
     "cD_max1",
     "cD_min1",
-    "cE_max1",
-    "cE_min1",
-    "cF_max1",
-    "cF_min1",
-    "cG_max1",
-    "cG_min1",
-    "cY_max1",
-    "cY_min1",
+    "cG_min",
+    "cG_max",
+    "cF_min",
+    "cF_max",
+    "cE_min",
+    "cE_max",
+    "cC_min",
+    "cC_max",
+    "cB1_min",
+    "cB1_max",
+    "cB_min",
+    "cB_max",
+    "cY_min",
+    "cY_max",
+    "cA_min",
+    "cA_max",
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1723584623837,
+  "columnUpdatedAt": 1724701185945,
   "columnWidthMap": {
     "customColumn1": 88
   },
@@ -127,58 +127,58 @@
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
     },
     {
-      "key": "primaryColumns.cA_max1.computedValue"
-    },
-    {
-      "key": "primaryColumns.cA_min1.computedValue"
-    },
-    {
-      "key": "primaryColumns.cB1_max1.computedValue"
-    },
-    {
-      "key": "primaryColumns.cB1_min1.computedValue"
-    },
-    {
-      "key": "primaryColumns.cB_max1.computedValue"
-    },
-    {
-      "key": "primaryColumns.cB_min1.computedValue"
-    },
-    {
-      "key": "primaryColumns.cC_max1.computedValue"
-    },
-    {
-      "key": "primaryColumns.cC_min1.computedValue"
-    },
-    {
       "key": "primaryColumns.cD_max1.computedValue"
     },
     {
       "key": "primaryColumns.cD_min1.computedValue"
     },
     {
-      "key": "primaryColumns.cE_max1.computedValue"
+      "key": "primaryColumns.cG_min.computedValue"
     },
     {
-      "key": "primaryColumns.cE_min1.computedValue"
+      "key": "primaryColumns.cG_max.computedValue"
     },
     {
-      "key": "primaryColumns.cF_max1.computedValue"
+      "key": "primaryColumns.cF_min.computedValue"
     },
     {
-      "key": "primaryColumns.cF_min1.computedValue"
+      "key": "primaryColumns.cF_max.computedValue"
     },
     {
-      "key": "primaryColumns.cG_max1.computedValue"
+      "key": "primaryColumns.cE_min.computedValue"
     },
     {
-      "key": "primaryColumns.cG_min1.computedValue"
+      "key": "primaryColumns.cE_max.computedValue"
     },
     {
-      "key": "primaryColumns.cY_max1.computedValue"
+      "key": "primaryColumns.cC_min.computedValue"
     },
     {
-      "key": "primaryColumns.cY_min1.computedValue"
+      "key": "primaryColumns.cC_max.computedValue"
+    },
+    {
+      "key": "primaryColumns.cB1_min.computedValue"
+    },
+    {
+      "key": "primaryColumns.cB1_max.computedValue"
+    },
+    {
+      "key": "primaryColumns.cB_min.computedValue"
+    },
+    {
+      "key": "primaryColumns.cB_max.computedValue"
+    },
+    {
+      "key": "primaryColumns.cY_min.computedValue"
+    },
+    {
+      "key": "primaryColumns.cY_max.computedValue"
+    },
+    {
+      "key": "primaryColumns.cA_min.computedValue"
+    },
+    {
+      "key": "primaryColumns.cA_max.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -235,8 +235,8 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 58,
-  "originalTopRow": 20,
+  "originalBottomRow": 59,
+  "originalTopRow": 21,
   "parentColumnSpace": 11.890625,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -380,7 +380,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cA_max1": {
+    "cA_max": {
       "alias": "cA_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -393,14 +393,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cA_max1",
-      "index": 3,
-      "isCellEditable": true,
+      "id": "cA_max",
+      "index": 20,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cA_max",
@@ -414,7 +414,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cA_min1": {
+    "cA_min": {
       "alias": "cA_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -427,14 +427,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cA_min1",
-      "index": 4,
-      "isCellEditable": true,
+      "id": "cA_min",
+      "index": 19,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cA_min",
@@ -448,7 +448,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cB1_max1": {
+    "cB1_max": {
       "alias": "cB1_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -461,14 +461,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cB1_max1",
-      "index": 5,
-      "isCellEditable": true,
+      "id": "cB1_max",
+      "index": 14,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cB1_max",
@@ -482,7 +482,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cB1_min1": {
+    "cB1_min": {
       "alias": "cB1_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -495,14 +495,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cB1_min1",
-      "index": 6,
-      "isCellEditable": true,
+      "id": "cB1_min",
+      "index": 13,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cB1_min",
@@ -516,7 +516,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cB_max1": {
+    "cB_max": {
       "alias": "cB_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -529,14 +529,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cB_max1",
-      "index": 7,
-      "isCellEditable": true,
+      "id": "cB_max",
+      "index": 16,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cB_max",
@@ -550,7 +550,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cB_min1": {
+    "cB_min": {
       "alias": "cB_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -563,14 +563,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cB_min1",
-      "index": 8,
-      "isCellEditable": true,
+      "id": "cB_min",
+      "index": 15,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cB_min",
@@ -584,7 +584,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cC_max1": {
+    "cC_max": {
       "alias": "cC_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -597,14 +597,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cC_max1",
-      "index": 9,
-      "isCellEditable": true,
+      "id": "cC_max",
+      "index": 12,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cC_max",
@@ -618,7 +618,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cC_min1": {
+    "cC_min": {
       "alias": "cC_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -631,14 +631,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cC_min1",
-      "index": 10,
-      "isCellEditable": true,
+      "id": "cC_min",
+      "index": 11,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cC_min",
@@ -720,7 +720,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cE_max1": {
+    "cE_max": {
       "alias": "cE_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -733,14 +733,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cE_max1",
-      "index": 13,
-      "isCellEditable": true,
+      "id": "cE_max",
+      "index": 8,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cE_max",
@@ -754,7 +754,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cE_min1": {
+    "cE_min": {
       "alias": "cE_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -767,14 +767,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cE_min1",
-      "index": 14,
-      "isCellEditable": true,
+      "id": "cE_min",
+      "index": 7,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cE_min",
@@ -788,7 +788,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cF_max1": {
+    "cF_max": {
       "alias": "cF_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -801,14 +801,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cF_max1",
-      "index": 15,
-      "isCellEditable": true,
+      "id": "cF_max",
+      "index": 6,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cF_max",
@@ -822,7 +822,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cF_min1": {
+    "cF_min": {
       "alias": "cF_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -835,14 +835,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cF_min1",
-      "index": 16,
-      "isCellEditable": true,
+      "id": "cF_min",
+      "index": 5,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cF_min",
@@ -856,7 +856,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cG_max1": {
+    "cG_max": {
       "alias": "cG_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -869,14 +869,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cG_max1",
-      "index": 17,
-      "isCellEditable": true,
+      "id": "cG_max",
+      "index": 4,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cG_max",
@@ -890,7 +890,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cG_min1": {
+    "cG_min": {
       "alias": "cG_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -903,14 +903,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cG_min1",
-      "index": 18,
-      "isCellEditable": true,
+      "id": "cG_min",
+      "index": 3,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cG_min",
@@ -924,7 +924,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cY_max1": {
+    "cY_max": {
       "alias": "cY_max",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -937,14 +937,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cY_max1",
-      "index": 19,
-      "isCellEditable": true,
+      "id": "cY_max",
+      "index": 18,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cY_max",
@@ -958,7 +958,7 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "cY_min1": {
+    "cY_min": {
       "alias": "cY_min",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
@@ -971,14 +971,14 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "cY_min1",
-      "index": 20,
-      "isCellEditable": true,
+      "id": "cY_min",
+      "index": 17,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "cY_min",
@@ -1138,7 +1138,7 @@
   ],
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-  "topRow": 20,
+  "topRow": 21,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

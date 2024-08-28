@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 66,
+  "bottomRow": 65,
   "boxShadow": "none",
   "displayName": "Menu button",
   "dynamicBindingPathList": [
@@ -18,6 +18,9 @@
     },
     {
       "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem7ye59p7o1n.onClick"
     }
   ],
   "hideCard": false,
@@ -30,13 +33,14 @@
   "isLoading": false,
   "isVisible": true,
   "key": "56ak3z89o4",
-  "label": "All",
-  "leftColumn": 56,
+  "label": "Lenghts",
+  "leftColumn": 0,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
+      "iconName": "trash",
       "id": "menuItem1",
-      "index": 0,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "Delete all lengths",
@@ -44,6 +48,7 @@
       "widgetId": ""
     },
     "menuItem2": {
+      "iconName": "duplicate",
       "id": "menuItem2",
       "index": 1,
       "isDisabled": false,
@@ -51,6 +56,16 @@
       "label": "Copy lengths from",
       "onClick": "{{showModal(modalCopyLengthsFrom.name);}}",
       "widgetId": ""
+    },
+    "menuItem7ye59p7o1n": {
+      "iconName": "refresh",
+      "id": "menuItem7ye59p7o1n",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Refresh",
+      "onClick": "{{getVP.run()}}",
+      "widgetId": "hawta5h35q"
     }
   },
   "menuItemsSource": "STATIC",
@@ -67,19 +82,19 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 66,
-  "originalTopRow": 62,
+  "originalBottomRow": 65,
+  "originalTopRow": 61,
   "parentColumnSpace": 11.890625,
   "parentId": "0",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 63,
+  "rightColumn": 11,
   "tags": [
     "Buttons"
   ],
   "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
-  "topRow": 62,
+  "topRow": 61,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "oyv1hbd57r",

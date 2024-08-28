@@ -18,6 +18,9 @@
     },
     {
       "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemb4b9o2ch9x.onClick"
     }
   ],
   "hideCard": false,
@@ -30,13 +33,14 @@
   "isLoading": false,
   "isVisible": true,
   "key": "56ak3z89o4",
-  "label": "All",
-  "leftColumn": 56,
+  "label": "Widths",
+  "leftColumn": 0,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
+      "iconName": "trash",
       "id": "menuItem1",
-      "index": 0,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "Delete all widths",
@@ -44,13 +48,24 @@
       "widgetId": ""
     },
     "menuItem2": {
+      "iconName": "duplicate",
       "id": "menuItem2",
       "index": 1,
       "isDisabled": false,
       "isVisible": true,
       "label": "Copy widths from",
-      "onClick": "{{showModal(modalCopyFromWidths.name);}}",
+      "onClick": "{{showModal(modalCopyFromWidths.name).then(() => {});}}",
       "widgetId": ""
+    },
+    "menuItemb4b9o2ch9x": {
+      "iconName": "refresh",
+      "id": "menuItemb4b9o2ch9x",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Refresh",
+      "onClick": "{{getVP.run()}}",
+      "widgetId": "bxd56bulec"
     }
   },
   "menuItemsSource": "STATIC",
@@ -74,7 +89,7 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 63,
+  "rightColumn": 11,
   "tags": [
     "Buttons"
   ],

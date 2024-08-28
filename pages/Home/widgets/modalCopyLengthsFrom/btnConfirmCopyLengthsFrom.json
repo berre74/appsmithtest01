@@ -44,7 +44,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{copyVPTableLengths.run().then(() => {\n  closeModal(modalCopyLengthsFrom.name);\n});}}",
+  "onClick": "{{copyVPTableLengths.run().then(() => {\n  closeModal(modalCopyLengthsFrom.name);\n  getVP.run();\n});}}",
   "parentId": "onqdnpt5ng",
   "placement": "CENTER",
   "recaptchaType": "V3",

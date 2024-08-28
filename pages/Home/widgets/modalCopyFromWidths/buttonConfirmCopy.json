@@ -43,7 +43,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{copyVPTableWidths.run().then(() => {\n  closeModal(modalCopyFromWidths.name);\n});}}",
+  "onClick": "{{copyVPTableWidths.run().then(() => {\n  closeModal(modalCopyFromWidths.name);\n  getVP.run();\n});}}",
   "originalBottomRow": 21,
   "originalTopRow": 17,
   "parentId": "iz10bwp8bm",

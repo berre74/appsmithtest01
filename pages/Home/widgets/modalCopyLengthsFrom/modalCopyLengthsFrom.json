@@ -78,6 +78,7 @@
   "leftColumn": 16,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 24,
+  "minHeight": 240,
   "mobileBottomRow": 39,
   "mobileLeftColumn": 16,
   "mobileRightColumn": 40,
@@ -110,5 +111,5 @@
   "version": 2,
   "widgetId": "orstqjez5o",
   "widgetName": "modalCopyLengthsFrom",
-  "width": 456
+  "width": 526
 }

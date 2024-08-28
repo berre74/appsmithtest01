@@ -34,6 +34,10 @@
         {
           "key": "measures",
           "value": "WIDTHS"
+        },
+        {
+          "key": "deletefirst",
+          "value": "{{chkDeleteFirstWidths.value}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -54,6 +58,9 @@
       },
       {
         "key": "queryParameters[1].value"
+      },
+      {
+        "key": "queryParameters[3].value"
       }
     ],
     "executeOnLoad": false,

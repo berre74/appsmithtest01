@@ -32,9 +32,9 @@
     }
   },
   "columnOrder": [
+    "vendorModel",
     "PartitionKey",
     "RowKey",
-    "vendorModel",
     "vendorTableID",
     "ts",
     "Timestamp",
@@ -46,7 +46,7 @@
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1723611946504,
+  "columnUpdatedAt": 1724918620113,
   "columnWidthMap": {
     "EditActions1": 141,
     "customColumn1": 93
@@ -593,7 +593,7 @@
       "label": "vendorModel",
       "notation": "standard",
       "originalId": "vendorModel",
-      "sticky": "",
+      "sticky": "left",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

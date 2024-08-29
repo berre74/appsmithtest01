@@ -10,7 +10,7 @@
   "collapseInvisibleWidgets": true,
   "color": "#FFEBFB",
   "evaluationVersion": 2,
-  "icon": "open-new-tab",
+  "icon": "file",
   "pages": [
     {
       "id": "Home",

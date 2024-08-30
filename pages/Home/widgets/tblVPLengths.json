@@ -43,18 +43,18 @@
     "lG_max1",
     "lD_min1",
     "lD_max1",
-    "lA_max",
-    "lA_min",
-    "lK_max",
     "lK_min",
-    "lT_max",
+    "lK_max",
+    "lA_min",
+    "lA_max",
     "lT_min",
-    "lZ_max",
+    "lT_max",
     "lZ_min",
+    "lZ_max",
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1725025096035,
+  "columnUpdatedAt": 1725032145496,
   "columnWidthMap": {
     "EditActions1": 141,
     "customColumn1": 93
@@ -138,16 +138,16 @@
       "key": "primaryColumns.lD_min1.computedValue"
     },
     {
-      "key": "primaryColumns.lA_max.computedValue"
-    },
-    {
-      "key": "primaryColumns.lA_min.computedValue"
-    },
-    {
       "key": "primaryColumns.lK_max.computedValue"
     },
     {
       "key": "primaryColumns.lK_min.computedValue"
+    },
+    {
+      "key": "primaryColumns.lA_max.computedValue"
+    },
+    {
+      "key": "primaryColumns.lA_min.computedValue"
     },
     {
       "key": "primaryColumns.lT_max.computedValue"

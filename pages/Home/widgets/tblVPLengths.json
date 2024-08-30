@@ -43,18 +43,18 @@
     "lG_max1",
     "lD_min1",
     "lD_max1",
-    "lT_min",
-    "lT_max",
-    "lK_min",
-    "lK_max",
-    "lA_min",
     "lA_max",
-    "lZ_min",
+    "lA_min",
+    "lK_max",
+    "lK_min",
+    "lT_max",
+    "lT_min",
     "lZ_max",
+    "lZ_min",
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1725002865821,
+  "columnUpdatedAt": 1725025096035,
   "columnWidthMap": {
     "EditActions1": 141,
     "customColumn1": 93
@@ -138,28 +138,28 @@
       "key": "primaryColumns.lD_min1.computedValue"
     },
     {
-      "key": "primaryColumns.lT_min.computedValue"
-    },
-    {
-      "key": "primaryColumns.lT_max.computedValue"
-    },
-    {
-      "key": "primaryColumns.lK_min.computedValue"
-    },
-    {
-      "key": "primaryColumns.lK_max.computedValue"
+      "key": "primaryColumns.lA_max.computedValue"
     },
     {
       "key": "primaryColumns.lA_min.computedValue"
     },
     {
-      "key": "primaryColumns.lA_max.computedValue"
+      "key": "primaryColumns.lK_max.computedValue"
     },
     {
-      "key": "primaryColumns.lZ_min.computedValue"
+      "key": "primaryColumns.lK_min.computedValue"
+    },
+    {
+      "key": "primaryColumns.lT_max.computedValue"
+    },
+    {
+      "key": "primaryColumns.lT_min.computedValue"
     },
     {
       "key": "primaryColumns.lZ_max.computedValue"
+    },
+    {
+      "key": "primaryColumns.lZ_min.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -415,7 +415,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "lA_max",
-      "index": 16,
+      "index": 3,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -449,7 +449,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "lA_min",
-      "index": 15,
+      "index": 4,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -619,7 +619,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "lK_max",
-      "index": 14,
+      "index": 9,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -653,7 +653,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "lK_min",
-      "index": 13,
+      "index": 10,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -687,7 +687,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "lT_max",
-      "index": 12,
+      "index": 11,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -721,7 +721,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "lT_min",
-      "index": 11,
+      "index": 12,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -755,7 +755,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "lZ_max",
-      "index": 18,
+      "index": 13,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -789,7 +789,7 @@
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "lZ_min",
-      "index": 17,
+      "index": 14,
       "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
@@ -865,7 +865,7 @@
       "notation": "standard",
       "originalId": "type",
       "placeholderText": "",
-      "selectOptions": "[{\"label\":\"AD\", \"value\":\"AD\"}, {\"label\":\"AG\", \"value\":\"AG\"}, {\"label\":\"AT\", \"value\":\"AT\"}]",
+      "selectOptions": "[{\"label\":\"AD\", \"value\":\"AD\"}, {\"label\":\"AG\", \"value\":\"AG\"}, {\"label\":\"AT\", \"value\":\"AT\"}, {\"label\":\"AK\", \"value\":\"AK\"}]",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

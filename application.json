@@ -19,6 +19,10 @@
     {
       "id": "Account Details",
       "isDefault": false
+    },
+    {
+      "id": "Report Matches",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

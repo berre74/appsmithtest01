@@ -1,23 +1,24 @@
 {
-  "gitSyncId": "668c2babd7be930da0c79795_b6941db4-024a-4f70-b7f9-8ae3201c2861",
+  "gitSyncId": "668c2babd7be930da0c79795_c659b93d-5935-42dd-adbf-640b832c3324",
   "unpublishedPage": {
-    "isHidden": true,
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380,
+          "bottomRow": 1070,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 540,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 52,
+          "snapRows": 124,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 89,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Account Details",
-    "slug": "account-details"
+    "name": "Vendor Product Tables",
+    "slug": "vendor-product-tables"
   }
 }

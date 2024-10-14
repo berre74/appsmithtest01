@@ -13,8 +13,8 @@
   "icon": "file",
   "pages": [
     {
-      "id": "Home",
-      "isDefault": true
+      "id": "Vendor Product Tables",
+      "isDefault": false
     },
     {
       "id": "Account Details",
@@ -22,7 +22,7 @@
     },
     {
       "id": "Report Matches",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "unpublishedApplicationDetail": {

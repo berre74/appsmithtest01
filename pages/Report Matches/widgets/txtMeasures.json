@@ -1,8 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
-  "displayName": "Text",
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -19,30 +18,20 @@
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
-  "hideCard": false,
-  "iconSVG": "/static/media/icon.301748e14b0306a7b94ece2d9e2c11cc.svg",
-  "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "5ypwvwvbup",
+  "key": "okf5oy96am",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 42,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 38,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onCanvasUI": {
-    "disableParentSelection": false,
-    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
-  },
-  "originalBottomRow": 43,
-  "originalTopRow": 39,
+  "originalBottomRow": 4,
+  "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 11.890625,
   "parentId": "0",
@@ -50,24 +39,14 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 16,
-  "searchTags": [
-    "typography",
-    "paragraph",
-    "label"
-  ],
   "shouldTruncate": false,
-  "tags": [
-    "Suggested",
-    "Content"
-  ],
-  "text": "Matching Products",
+  "text": "Measures",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 39,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "zj3c8qhnst",
-  "widgetName": "txtMatchingProducts"
+  "widgetId": "xbdxz0q0nm",
+  "widgetName": "txtMeasures"
 }

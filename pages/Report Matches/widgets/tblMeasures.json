@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 36,
+  "bottomRow": 39,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -347,6 +347,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "onRowSelected": "{{FindProducts.run()}}",
+  "originalBottomRow": 39,
+  "originalTopRow": 4,
   "parentColumnSpace": 11.890625,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -2286,7 +2288,7 @@
   ],
   "textSize": "0.875rem",
   "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-  "topRow": 1,
+  "topRow": 4,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

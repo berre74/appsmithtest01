@@ -90,13 +90,11 @@
     "measureId",
     "Timestamp",
     "NEW",
-    "_",
     "Besteld",
     "Afgehandeld",
-    "Matching",
     "Geleverd"
   ],
-  "columnUpdatedAt": 1728847386533,
+  "columnUpdatedAt": 1728886100556,
   "columnWidthMap": {
     "customColumn1": 329
   },
@@ -298,16 +296,10 @@
       "key": "primaryColumns.NEW.computedValue"
     },
     {
-      "key": "primaryColumns._.computedValue"
-    },
-    {
       "key": "primaryColumns.Besteld.computedValue"
     },
     {
       "key": "primaryColumns.Afgehandeld.computedValue"
-    },
-    {
-      "key": "primaryColumns.Matching.computedValue"
     },
     {
       "key": "primaryColumns.Geleverd.computedValue"
@@ -725,37 +717,6 @@
       "label": "Maat",
       "notation": "standard",
       "originalId": "Maat",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "Matching": {
-      "alias": "Matching",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{tblMeasures.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Matching\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "Matching",
-      "index": 62,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "Matching",
-      "notation": "standard",
-      "originalId": "Matching",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -1190,37 +1151,6 @@
       "label": "Woonplaats",
       "notation": "standard",
       "originalId": "Woonplaats",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "_": {
-      "alias": "",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{tblMeasures.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "_",
-      "index": 59,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "",
-      "notation": "standard",
-      "originalId": "",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

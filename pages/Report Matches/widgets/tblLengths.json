@@ -39,9 +39,10 @@
     "ts",
     "type",
     "vendorModel",
-    "vendorTableID"
+    "vendorTableID",
+    "totalDevLengths"
   ],
-  "columnUpdatedAt": 1728887221947,
+  "columnUpdatedAt": 1731677317326,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -89,6 +90,9 @@
     },
     {
       "key": "primaryColumns.vendorTableID.computedValue"
+    },
+    {
+      "key": "primaryColumns.totalDevLengths.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -296,6 +300,40 @@
       "label": "lD_min",
       "notation": "standard",
       "originalId": "lD_min",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "totalDevLengths": {
+      "alias": "totalDevLengths",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{tblLengths.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"totalDevLengths\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "totalDevLengths",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "totalDevLengths",
+      "notation": "standard",
+      "originalId": "totalDevLengths",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

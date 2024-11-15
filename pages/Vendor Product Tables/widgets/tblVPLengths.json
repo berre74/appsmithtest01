@@ -58,7 +58,8 @@
   "columnUpdatedAt": 1727724191592,
   "columnWidthMap": {
     "EditActions1": 141,
-    "customColumn1": 93
+    "customColumn1": 93,
+    "vendorModel": 326
   },
   "compactMode": "SHORT",
   "defaultPageSize": 0,

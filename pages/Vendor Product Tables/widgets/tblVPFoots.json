@@ -34,6 +34,7 @@
   "columnOrder": [
     "PartitionKey",
     "RowKey",
+    "vendorModel",
     "type",
     "lA_min",
     "lA_max",
@@ -45,7 +46,7 @@
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1732107755659,
+  "columnUpdatedAt": 1732108692070,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -120,6 +121,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.boxShadow"
+    },
+    {
+      "key": "primaryColumns.vendorModel.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -540,6 +544,37 @@
       "label": "type",
       "notation": "standard",
       "originalId": "type",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "vendorModel": {
+      "alias": "vendorModel",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{tblVPFoots.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vendorModel\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "vendorModel",
+      "index": 7,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "vendorModel",
+      "notation": "standard",
+      "originalId": "vendorModel",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

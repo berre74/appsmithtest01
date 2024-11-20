@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 5,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -12,30 +12,27 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
-  "fontStyle": "",
+  "fontSize": "1.25rem",
+  "fontStyle": "BOLD",
   "hideCard": false,
   "iconSVG": "/static/media/icon.301748e14b0306a7b94ece2d9e2c11cc.svg",
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "62knvoy82s",
-  "leftColumn": 0,
+  "key": "0li6szyhk5",
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 13,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 7,
-  "mobileTopRow": 9,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 41,
+  "mobileTopRow": 1,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -44,15 +41,11 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 13,
-  "originalTopRow": 8,
   "overflow": "NONE",
-  "parentColumnSpace": 11.890625,
-  "parentId": "0",
-  "parentRowSpace": 10,
+  "parentId": "036kd1poqr",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 7,
+  "rightColumn": 41,
   "searchTags": [
     "typography",
     "paragraph",
@@ -63,14 +56,14 @@
     "Suggested",
     "Content"
   ],
-  "text": "Server: {{appsmith.URL.hostname}}",
+  "text": "Copy Foots From",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
-  "topRow": 8,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "e2fml87yhq",
-  "widgetName": "txtServer"
+  "widgetId": "3ivz387w88",
+  "widgetName": "txtCopyFootsFrom"
 }

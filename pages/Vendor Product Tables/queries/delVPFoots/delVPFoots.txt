@@ -1,0 +1,3 @@
+{{
+  tblVPFoots.triggeredRow
+}}

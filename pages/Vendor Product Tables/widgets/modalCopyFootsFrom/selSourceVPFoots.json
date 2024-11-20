@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 12,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getVPTables.data[0].vendorTableID))(selSourceVP.options, selSourceVP.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getVPTables.data[0].vendorTableID))(selSourceVPFoots.options, selSourceVPFoots.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -14,20 +14,14 @@
       "key": "borderRadius"
     },
     {
-      "key": "defaultOptionValue"
+      "key": "sourceData"
     },
     {
-      "key": "sourceData"
+      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
-    {
-      "key": "optionLabel"
-    },
-    {
-      "key": "optionValue"
-    },
     {
       "key": "sourceData"
     }
@@ -37,11 +31,11 @@
   "iconSVG": "/static/media/icon.c94480439adb48de6883bb496aa5ef7d.svg",
   "isDeprecated": false,
   "isDisabled": false,
-  "isFilterable": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "bo1897gun2",
+  "key": "kmbwasej1w",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Source Vendor Products Table",
@@ -51,10 +45,10 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 13,
+  "mobileBottomRow": 12,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 21,
-  "mobileTopRow": 6,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
   "onCanvasUI": {
     "disableParentSelection": false,
@@ -65,15 +59,13 @@
   },
   "optionLabel": "vendorTableID",
   "optionValue": "vendorTableID",
-  "originalBottomRow": 13,
-  "originalTopRow": 6,
   "parentColumnSpace": 6.9375,
-  "parentId": "iz10bwp8bm",
+  "parentId": "036kd1poqr",
   "parentRowSpace": 10,
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 38,
   "searchTags": [
     "dropdown"
   ],
@@ -84,9 +76,9 @@
     "Select"
   ],
   "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
-  "topRow": 4,
+  "topRow": 5,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "thzbcqgdj4",
-  "widgetName": "selSourceVP"
+  "widgetId": "holn1z6wn1",
+  "widgetName": "selSourceVPFoots"
 }

@@ -19,7 +19,7 @@
   "flexVerticalAlignment": "start",
   "hideCard": false,
   "iconSVG": "/static/media/icon.fdb987a7ceacf7001426460138f7cd09.svg",
-  "image": "https://sokba.blob.core.windows.net/vendortables/{{selSourceVendorVP.selectedOptionValue}}.jpg",
+  "image": "https://sokba.blob.core.windows.net/vendortables/{{selSourceVPLenghts.selectedOptionValue}}.jpg",
   "imageShape": "RECTANGLE",
   "isDeprecated": false,
   "isLoading": false,

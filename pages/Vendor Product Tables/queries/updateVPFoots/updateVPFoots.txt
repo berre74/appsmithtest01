@@ -1,0 +1,5 @@
+{{
+{
+	vendorTableID: selVPTable.selectedOptionLabel,
+	foots: [tblVPFoots.triggeredRow]}
+}}

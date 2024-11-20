@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "66c88debdbbf952a26ed30c0_34071231-4fa9-4385-92d3-5d53b904620c",
-  "id": "Vendor Product Tables_copyVPTableLengths",
+  "gitSyncId": "673dbe6a516c133d8d17f858_cd57f663-154c-4947-8e0b-9cc5d23beb00",
+  "id": "Vendor Product Tables_copyVPTableFoots",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -25,7 +25,7 @@
       "queryParameters": [
         {
           "key": "sourceVendorTableID",
-          "value": "{{selSourceVPLenghts.selectedOptionValue}}"
+          "value": "{{selSourceVPFoots.selectedOptionValue}}"
         },
         {
           "key": "destVendorTableID",
@@ -33,11 +33,11 @@
         },
         {
           "key": "measures",
-          "value": "LENGTHS"
+          "value": "FOOTS"
         },
         {
           "key": "deletefirst",
-          "value": "{{chkDeleteFirstLengths.value}}"
+          "value": "{{chkDeleteFirstFoots.value}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -64,7 +64,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "copyVPTableLengths",
+    "name": "copyVPTableFoots",
     "pageId": "Vendor Product Tables",
     "userSetOnLoad": false
   }

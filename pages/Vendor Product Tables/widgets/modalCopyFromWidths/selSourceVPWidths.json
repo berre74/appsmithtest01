@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 11,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getVPTables.data[0].vendorTableID))(selSourceVendorVP.options, selSourceVendorVP.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getVPTables.data[0].vendorTableID))(selSourceVPWidths.options, selSourceVPWidths.serverSideFiltering) }}",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -14,22 +14,22 @@
       "key": "borderRadius"
     },
     {
-      "key": "sourceData"
+      "key": "defaultOptionValue"
     },
     {
-      "key": "defaultOptionValue"
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
-      "key": "sourceData"
-    },
-    {
       "key": "optionLabel"
     },
     {
       "key": "optionValue"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -37,7 +37,7 @@
   "iconSVG": "/static/media/icon.c94480439adb48de6883bb496aa5ef7d.svg",
   "isDeprecated": false,
   "isDisabled": false,
-  "isFilterable": true,
+  "isFilterable": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
@@ -65,13 +65,15 @@
   },
   "optionLabel": "vendorTableID",
   "optionValue": "vendorTableID",
+  "originalBottomRow": 13,
+  "originalTopRow": 6,
   "parentColumnSpace": 6.9375,
-  "parentId": "onqdnpt5ng",
+  "parentId": "iz10bwp8bm",
   "parentRowSpace": 10,
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "searchTags": [
     "dropdown"
   ],
@@ -82,9 +84,9 @@
     "Select"
   ],
   "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
-  "topRow": 6,
+  "topRow": 4,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "2krde62tcd",
-  "widgetName": "selSourceVendorVP"
+  "widgetId": "thzbcqgdj4",
+  "widgetName": "selSourceVPWidths"
 }

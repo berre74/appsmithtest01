@@ -92,9 +92,10 @@
     "NEW",
     "Besteld",
     "Afgehandeld",
-    "Geleverd"
+    "Geleverd",
+    "chk_Product"
   ],
-  "columnUpdatedAt": 1728886100556,
+  "columnUpdatedAt": 1732384426857,
   "columnWidthMap": {
     "customColumn1": 329
   },
@@ -303,6 +304,9 @@
     },
     {
       "key": "primaryColumns.Geleverd.computedValue"
+    },
+    {
+      "key": "primaryColumns.chk_Product.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -1774,6 +1778,40 @@
       "notation": "standard",
       "originalId": "cYR",
       "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "chk_Product": {
+      "alias": "chk_Product",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{tblMeasures.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"chk_Product\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "chk_Product",
+      "index": 62,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "chk_Product",
+      "notation": "standard",
+      "originalId": "chk_Product",
+      "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
